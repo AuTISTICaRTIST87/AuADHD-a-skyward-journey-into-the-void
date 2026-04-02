@@ -22,3 +22,26 @@ AuADHD is not just about survival or automation—it’s about understanding the
 
 You begin in the void.
 Everything else, you build.
+
+# AuADHD; A Skyward Journey
+
+A skyblock-inspired modpack about late autism diagnosis, duality, rebuilding identity, and learning how to live with both autism and ADHD.
+
+## Features
+- Story-based progression
+- FTB Quests
+- Symbolic chapter design
+- Exploration of identity, burnout, grief, and self-trust
+
+## Requirements
+- Minecraft version:
+- Mod loader:
+- RAM recommendation:
+
+## Installation
+1. Download the pack
+2. Import into your launcher
+3. Launch and play
+
+## Credits
+Created by Vonda
