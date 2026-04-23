@@ -1,47 +1,49 @@
-# AuADHD-a-skyward-journey-into-the-void
-AuADHD is a skyblock modpack built as a reflective and experiential journey through late-diagnosed autism and ADHD. It explores the disorientation of self-redefinition, the collapse of old identities, and the slow, intentional rebuilding of a life that actually fits.
+# Becoming Human; from the void to existence
+Becoming Human; from the void to existence is a modded Minecraft skyblock pack about emergence, reconstruction, and learning how to exist with intention after isolation.
 
-Set in the isolation of the void, progression mirrors an internal process: starting with very little, questioning everything, and gradually constructing meaning, structure, and self-understanding from the ground up.
+You begin in the void with almost nothing.
 
-This pack leans into duality—the tension between chaos and order, burnout and hyperfocus, masking and authenticity. Through curated mods, questlines, and progression systems, players are guided through themes of ego death, sensory experience, executive dysfunction, and self-acceptance.
+Progress is not just about getting stronger. It is about building structure, meaning, memory, and identity one system at a time until survival becomes expression.
 
-Core Themes
-    •    Late diagnosis and identity reconstruction
-    •    Duality of autism and ADHD
-    •    Navigating overwhelm, burnout, and focus
-    •    Letting go of masking and external expectations
-    •    Building systems that support how your brain actually works
+Vision
+Skyblock progression with reflective pacing
+Quest-driven guidance instead of aimless grind
+Emotional themes built around reconstruction, burnout, duality, and becoming
+Shader-friendly visual atmosphere as part of the pack identity
+A pack that feels intentional, strange, and alive instead of generic
+Current version
+Minecraft 1.20.1
+Forge 47.4.10
+Core systems
+FTB Quests for progression and narrative structure
+Skyblock Builder for the void-start setup
+A heavily modded progression path that blends tech, magic, automation, exploration, and self-directed base building
+Project status
+Active rebrand in progress
+Staying on Minecraft 1.20.1 for compatibility and stability
+Player-facing pack branding has been updated to Becoming Human; from the void to existence
+Some internal quest IDs still use legacy names to avoid breaking saves and quest references
+What this pack is trying to feel like
+This is not just a collection of mods.
 
-Gameplay Style
-    •    Skyblock progression with intentional pacing
-    •    Quest-driven narrative tied to emotional and cognitive themes
-    •    Open-ended solutions that reward creativity and nonlinear thinking
-    •    Systems that encourage both structure and exploration
+The goal is a pack where the player starts in emptiness and slowly builds a world that feels livable, meaningful, and personal.
 
-AuADHD is not just about survival or automation—it’s about understanding the patterns you live inside of, and choosing which ones to keep.
+The void is the beginning, not the theme forever.
+The point is becoming.
 
-You begin in the void.
-Everything else, you build.
+Local project notes
+Helpful files in this workspace:
 
-# AuADHD; A Skyward Journey
-
-A skyblock-inspired modpack about late autism diagnosis, duality, rebuilding identity, and learning how to live with both autism and ADHD.
-
-## Features
-- Story-based progression
-- FTB Quests
-- Symbolic chapter design
-- Exploration of identity, burnout, grief, and self-trust
-
-## Requirements
-- Minecraft version:
-- Mod loader:
-- RAM recommendation:
-
-## Installation
-1. Download the pack
-2. Import into your launcher
-3. Launch and play
+notes/migration_audit_1.20.2_2026-04-23.md
+notes/github_rebrand_checklist_2026-04-23.md
+notes/manual_targets.json
+notes/VOCAB.md
+Workflow
+Make and test changes in the local instance first
+Verify configs, quests, and compatibility in-game
+Mirror stable project-facing updates to GitHub
+Credits
+Created by Vonda
 
 ## Credits
 Created by Vonda
