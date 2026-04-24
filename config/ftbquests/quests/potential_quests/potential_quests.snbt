@@ -1,0 +1,189 @@
+{
+  meta: {
+    title: "Potential Quests"
+    status: "planning_only"
+    notes: [
+      "This scaffold is not referenced by manifest.json and does not change the live questline yet."
+      "Use it as a draft bank when promoting new ideas into the six active AuADHD chapters."
+      "The grouping below follows the current live arc: prologue, diagnosis, ego death, duality, rebuild, ascension."
+    ]
+  }
+  chapter_scaffold: [
+    {
+      target_chapter: "auadhd_prologue"
+      live_title: "Prologue: The Quiet Wrongness"
+      focus: ["orientation", "overwhelm", "pattern recognition", "basic safety"]
+      categories: [
+        {
+          name: "The Fog"
+          stub_title: "Nothing Fits Yet"
+          stub_summary: "A first quest about disorientation, soft confusion, and learning to move without demanding instant clarity."
+        }
+        {
+          name: "The Brain Storm"
+          stub_title: "Too Many Tabs Open"
+          stub_summary: "Turn scattered thoughts into visible tasks, bins, signs, or stations so chaos becomes readable."
+        }
+        {
+          name: "Sensory World"
+          stub_title: "Volume Knob Missing"
+          stub_summary: "Build around light, sound, color, and comfort; let the player make a base that feels survivable before efficient."
+        }
+      ]
+      chapter_stub_notes: [
+        "Best fit for starter island stabilization, first base comfort, and early information scaffolding."
+        "Lean on checkmarks plus simple minecraft item goals rather than mod-specific gating."
+      ]
+    }
+    {
+      target_chapter: "auadhd_diagnosis"
+      live_title: "Diagnosis: Naming the Shape"
+      focus: ["language", "reframing history", "recognition", "self-interpretation"]
+      categories: [
+        {
+          name: "The Diagnosis"
+          stub_title: "The Name Arrives"
+          stub_summary: "A quest about the relief and grief that land together when the pattern finally has a name."
+        }
+        {
+          name: "The Spectrum"
+          stub_title: "Contradiction Map"
+          stub_summary: "Explore uneven strengths, uneven needs, and why a single label still contains many different truths."
+        }
+        {
+          name: "Executive Dysfunction"
+          stub_title: "Friction Everywhere"
+          stub_summary: "Translate invisible effort into visible systems like labeled storage, staged tools, and shorter task loops."
+        }
+        {
+          name: "Hyperfocus & Time Blindness"
+          stub_title: "Lost Three Hours"
+          stub_summary: "Frame deep focus as both gift and trap; build timers, anchor points, or return paths into progression."
+        }
+      ]
+      chapter_stub_notes: [
+        "This section pairs well with books, lecterns, labels, maps, clocks, and route-making."
+        "Use quest copy that names mixed feelings instead of treating diagnosis as only a win state."
+      ]
+    }
+    {
+      target_chapter: "auadhd_ego_death"
+      live_title: "Ego Death: The Mask Cracks"
+      focus: ["collapse", "mask fatigue", "trauma response", "social strain"]
+      categories: [
+        {
+          name: "Trauma & CPTSD"
+          stub_title: "The Alarm Stays On"
+          stub_summary: "Acknowledge survival wiring, vigilance, and the cost of living in a system that trained your body to stay ready."
+        }
+        {
+          name: "Masking & Identity"
+          stub_title: "Borrowed Face"
+          stub_summary: "Center the exhaustion of performing acceptability and the strange emptiness left behind when the act slips."
+        }
+        {
+          name: "Social Survival"
+          stub_title: "Read the Room, Miss the Self"
+          stub_summary: "Build quests around translation, people-pleasing, and the cost of constantly scanning for safe behavior."
+        }
+        {
+          name: "Burnout Cycle"
+          stub_title: "Crash After the Push"
+          stub_summary: "Capture the loop of overextending, collapsing, recovering halfway, and being asked to do it again."
+        }
+      ]
+      chapter_stub_notes: [
+        "Strong fit for more reflective checkmark tasks, recovery spaces, and fewer pure collection grinds."
+        "This chapter should feel emotionally sharp without becoming mechanically punishing."
+      ]
+    }
+    {
+      target_chapter: "auadhd_duality"
+      live_title: "Duality"
+      focus: ["support vs strain", "self-knowledge", "regulation", "adaptive systems"]
+      categories: [
+        {
+          name: "Coping Systems"
+          stub_title: "Patchwork Tools"
+          stub_summary: "Honor the scrappy systems that kept life moving even when they were awkward, fragile, or misunderstood."
+        }
+        {
+          name: "External Supports"
+          stub_title: "Scaffolding Counts"
+          stub_summary: "Make support visible through transport, reminders, automation, shared storage, or other accessibility structures."
+        }
+        {
+          name: "Routine & Structure"
+          stub_title: "Rails for Bad Days"
+          stub_summary: "Design routines as kindness instead of discipline theater; the point is easier returns, not perfect performance."
+        }
+        {
+          name: "Emotional Regulation"
+          stub_title: "Weather Report"
+          stub_summary: "Treat regulation as noticing and responding, not suppressing; use calm spaces, anchors, and reset rituals."
+        }
+      ]
+      chapter_stub_notes: [
+        "Good place for wayfinding, automation, transport, and short loops that reduce decision fatigue."
+        "Keep the tone balanced: painful truths, practical tools, and a growing sense of self-trust."
+      ]
+    }
+    {
+      target_chapter: "auadhd_rebuild"
+      live_title: "Rebuilding: A Kinder Architecture"
+      focus: ["healing", "experimentation", "self-definition", "safer limits"]
+      categories: [
+        {
+          name: "Healing & Recovery"
+          stub_title: "Rest That Actually Counts"
+          stub_summary: "Make room for slower repair, not just emergency shutdown; recovery can be active, intentional, and unfinished."
+        }
+        {
+          name: "Self-Discovery"
+          stub_title: "What Is Still Mine"
+          stub_summary: "Use rebuilding quests to separate personal preference from survival habit and old expectation."
+        }
+        {
+          name: "Unmasking"
+          stub_title: "Try Being Seen"
+          stub_summary: "Approach authenticity as practice, not a flip of a switch; let the player test what honesty feels like in small spaces."
+        }
+        {
+          name: "Boundaries"
+          stub_title: "Closed Gates, Open Future"
+          stub_summary: "Frame boundaries as design choices that protect energy, attention, and identity instead of punishments for others."
+        }
+      ]
+      chapter_stub_notes: [
+        "This chapter is a natural home for base redesign, dedicated rooms, safer routes, and player-chosen priorities."
+        "Rewards here should feel steady and grounding rather than flashy."
+      ]
+    }
+    {
+      target_chapter: "auadhd_ascension"
+      live_title: "Ascension: Skyward, Still Yourself"
+      focus: ["integration", "joy", "agency", "creative ownership"]
+      categories: [
+        {
+          name: "Thriving"
+          stub_title: "More Than Surviving"
+          stub_summary: "Let the player feel competence, delight, and enoughness without pretending the earlier struggle vanished."
+        }
+        {
+          name: "Creative Expression"
+          stub_title: "Make It Look Like You"
+          stub_summary: "Invite beauty, aesthetics, and personal style as valid progression instead of optional fluff."
+        }
+        {
+          name: "Building Your World"
+          stub_title: "Architecture of the Self"
+          stub_summary: "End on intentional worldbuilding: a base, network, or sky-spanning structure that reflects chosen identity."
+        }
+      ]
+      chapter_stub_notes: [
+        "Best fit for capstone builds, beautification, self-directed goals, and celebratory utility."
+        "Keep the ending hopeful, but still honest: skyward, not cured."
+      ]
+    }
+  ]
+}

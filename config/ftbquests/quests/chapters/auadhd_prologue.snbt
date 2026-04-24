@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "auadhd_prologue"
+	group: ""
+	icon: "minecraft:spyglass"
+	id: "30877432D1026706"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The first chapter is about orientation, not speed. Pause, read, and let the void feel strange on purpose."]
+			icon: "minecraft:spyglass"
+			id: "684AECC04A9285A3"
+			rewards: [{
+				id: "01D8496BF84BE6AC"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			subtitle: "Read the pack intro and claim the first island kit. This is the moment before the words exist but the feeling does."
+			tasks: [
+				{
+					id: "799B91396B263D9D"
+					title: "Read the pack intro"
+					type: "checkmark"
+				}
+				{
+					id: "288B20A8DDD1F3A3"
+					title: "Claim your starter island kit"
+					type: "checkmark"
+				}
+			]
+			title: "Open Your Eyes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["684AECC04A9285A3"]
+			description: ["When everything is blurred at the edges, the goal is not mastery. It is one clear corner, one visible plan, and enough light to keep moving."]
+			icon: "minecraft:gray_stained_glass_pane"
+			id: "410A5F89CEB726D3"
+			rewards: [
+				{
+					count: 2
+					id: "0CB8A469E7352FD1"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			subtitle: "The fog does not lift all at once. Make a little light, a little order, and call that progress anyway."
+			tasks: [
+				{
+					count: 8L
+					id: "981307EC45D6AFB2"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "6AECF3DB87524109"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "D16530CA28EB7F49"
+					title: "Make one part of your island feel readable"
+					type: "checkmark"
+				}
+			]
+			title: "The Fog"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: ["Start with the smallest structures that make the day easier to hold."]
+			icon: "minecraft:crafting_table"
+			id: "1B32C83A0EC8DD91"
+			rewards: [{
+				id: "2A2C56B51C2DCF15"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "Make a crafting table, crook, and basic storage. Tiny systems keep the world from leaking out all over the floor."
+			tasks: [
+				{
+					id: "4EA33238718AB341"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "21BA3DACF53A2137"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C2E0E940ED57D1B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "2C52594CBB147C6B"
+					title: "Craft your first crook"
+					type: "checkmark"
+				}
+			]
+			title: "Small Routines"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["The early base should feel survivable before it feels efficient."]
+			icon: "minecraft:lantern"
+			id: "73C8EB5BB682575E"
+			rewards: [{
+				count: 4
+				id: "01311AFFC2B557D8"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			subtitle: "Collect simple sensory anchors: a bed, a light source, and a fenced corner that feels safe."
+			tasks: [
+				{
+					id: "467361F0BE908AED"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "45634BF7BA582FC6"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "513FE00B3957081C"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+			]
+			title: "Noise in the Static"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			description: ["This is the first moment the void stops being empty and starts becoming readable."]
+			icon: "minecraft:cobblestone"
+			id: "162BCD9BC666D666"
+			rewards: [{
+				count: 8
+				id: "6A856D0A99B6EB9B"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "Set up early resource loops. Sift, sort, repeat. The world starts answering back when you notice its patterns."
+			tasks: [
+				{
+					count: 64L
+					id: "4665C5B8F5B00C3A"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "696A78D8EBADD721"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5D741C9E0059B14E"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "First Patterns"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73C8EB5BB682575E"]
+			description: ["Growth is allowed to look practical before it looks beautiful."]
+			icon: "minecraft:oak_slab"
+			id: "477B9B77E9975144"
+			rewards: [{
+				id: "409101C8E14C1BFF"
+				type: "xp"
+				xp: 4
+			}]
+			subtitle: "Expand your island until it feels like a platform instead of a panic response."
+			tasks: [
+				{
+					count: 64L
+					id: "2E017A4A4BF18C91"
+					item: "minecraft:oak_slab"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "76377053B035DBE0"
+					item: "minecraft:cobblestone_slab"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "445D8FFD2D3FDC1A"
+					item: "minecraft:ladder"
+					type: "item"
+				}
+			]
+			title: "A Place to Stand"
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			description: ["Skyblock finally starts feeling real when resource loops stop depending on luck alone."]
+			icon: "minecraft:lava_bucket"
+			id: "1E2C1E44746415CD"
+			rewards: [{
+				count: 2
+				id: "4222A048957F2C56"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "Secure water, lava, and your first cobble generator. Repetition can be a prison or a support. Here, it becomes a support."
+			tasks: [
+				{
+					id: "6B3C6D692FF89A2E"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0F68721739620183"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "4D0CF19C0F1B4F1B"
+					title: "Build a working cobblestone generator"
+					type: "checkmark"
+				}
+			]
+			title: "The First Loop"
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "Prologue: The Quiet Wrongness"
+}
