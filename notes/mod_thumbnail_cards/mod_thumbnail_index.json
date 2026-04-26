@@ -1,0 +1,830 @@
+﻿[
+  {
+    "category": "Core Progression",
+    "mod": "FTB Quests",
+    "description": "Quest book framework for chapters, tasks, rewards, dependencies, and party progression.",
+    "integration": "Make it the emotional spine: diagnosis, routines, rebuilding, duality, and ascension chapters that teach the pack gently.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\01-core-progression-ftb-quests.png",
+    "matched_jar": "ftb-quests-forge-2001.4.18.jar",
+    "matched_name": "FTB Quests"
+  },
+  {
+    "category": "Core Progression",
+    "mod": "FTB Teams",
+    "description": "Team system that lets players share progress and ownership.",
+    "integration": "Tie skyblock islands, quest progress, and shared base milestones to a chosen support network instead of a solo grind.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\02-core-progression-ftb-teams.png",
+    "matched_jar": "ftb-teams-forge-2001.3.2.jar",
+    "matched_name": "FTB Teams"
+  },
+  {
+    "category": "Core Progression",
+    "mod": "FTB Essentials",
+    "description": "Server and utility commands for homes, warps, nicknames, and quality server management.",
+    "integration": "Use homes/warps as safe return rituals so players can explore intensity without losing their center.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\03-core-progression-ftb-essentials.png",
+    "matched_jar": "ftb-essentials-forge-2001.2.4.jar",
+    "matched_name": "FTB Essentials"
+  },
+  {
+    "category": "Core Progression",
+    "mod": "Quest Kill Task",
+    "description": "Adds kill-count tasks for FTB Quests.",
+    "integration": "Turn combat into contained challenge gates, with clear boss or mob tasks instead of vague danger spikes.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\04-core-progression-quest-kill-task.png",
+    "matched_jar": "Quest Kill Task-0.2.0+1.20.1-forge.jar",
+    "matched_name": "Quest Kill Task"
+  },
+  {
+    "category": "Core Progression",
+    "mod": "Starter Kit",
+    "description": "Gives configured starter items on first join.",
+    "integration": "Deliver the first comfort objects and practical tools as a deliberate landing ritual before the void opens up.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\05-core-progression-starter-kit.png",
+    "matched_jar": "starterkit-1.20.1-7.4.jar",
+    "matched_name": "Starter Kit"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Skyblock Builder",
+    "description": "Creates the skyblock start flow, island templates, spawn behavior, and team islands.",
+    "integration": "Keep this as the literal rebirth system: chakra islands, safe spawn, starter routing, and controlled first steps.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\06-skyblock-foundation-skyblock-builder.png",
+    "matched_jar": "SkyblockBuilder-1.20.1-5.1.30.jar",
+    "matched_name": "Skyblock Builder"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Skyblock Resources",
+    "description": "Adds resource progression designed for skyblock play.",
+    "integration": "Use it to replace missing overworld loops with intentional, quest-taught resource routines.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\07-skyblock-foundation-skyblock-resources.png",
+    "matched_jar": "skyblock_resources-1.3.0-forge-1.20.1.jar",
+    "matched_name": "Skyblock Resources"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Sky Islands",
+    "description": "Adds floating island content and sky exploration targets.",
+    "integration": "Let nearby islands represent reachable pieces of self: small, themed recoveries rather than endless terrain.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\08-skyblock-foundation-sky-islands.png",
+    "matched_jar": "sky_isles-1.20.1-1.0.0.jar",
+    "matched_name": "Sky Isles"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Skylands",
+    "description": "Adds skyland terrain or support for skyland-style worlds.",
+    "integration": "Use it for larger transitional spaces once the player has learned how to survive the first platform.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\09-skyblock-foundation-skylands.png",
+    "matched_jar": "SkyLands-0.6.1.jar",
+    "matched_name": "Sky Lands"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Sky Structures",
+    "description": "Adds premade sky structures to discover.",
+    "integration": "Place structure discoveries as confidence checks after early routine quests.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\10-skyblock-foundation-sky-structures.png",
+    "matched_jar": "Sky Structures 1.0.0 - 1.20.1.jar",
+    "matched_name": "Sky Structures"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Sky Villages",
+    "description": "Adds villages or village-like life to sky worlds.",
+    "integration": "Make social spaces optional sanctuaries where players trade, recover, and gather direction.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\11-skyblock-foundation-sky-villages.png",
+    "matched_jar": "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar",
+    "matched_name": "Sky Villages"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Feur Skyland",
+    "description": "Adds themed skyland content for floating-world exploration.",
+    "integration": "Use it as a midgame discovery layer after the first islands stop feeling impossible.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\12-skyblock-foundation-feur-skyland.png",
+    "matched_jar": "feur_skyland-1.20.1-forge.jar",
+    "matched_name": "Feur Skyland"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Skyfall",
+    "description": "Adds skyblock-focused progression and rewards.",
+    "integration": "Use drops or events as measured interruptions: novelty without overwhelming the starting routine.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\13-skyblock-foundation-skyfall.png",
+    "matched_jar": "skyfall-3.0.0-forge-1.20.1.jar",
+    "matched_name": "Skyfall"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "Skyfall Crates",
+    "description": "Adds crate-style rewards for Skyfall.",
+    "integration": "Reserve crates for celebratory quest rewards, not core progression, so the pack stays predictable.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\14-skyblock-foundation-skyfall-crates.png",
+    "matched_jar": "skyfall_crates-1.0.4.jar",
+    "matched_name": "Skyfall: Crates"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "SkyGUIs",
+    "description": "Adds GUIs for skyblock workflows.",
+    "integration": "Use it to reduce friction around island choices, teams, and skyblock management.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\15-skyblock-foundation-skyguis.png",
+    "matched_jar": "SkyGUIs-1.20.1-3.0.16.jar",
+    "matched_name": "Sky GUIs"
+  },
+  {
+    "category": "Skyblock Foundation",
+    "mod": "CobbleGen Randomizer",
+    "description": "Randomizes or expands cobblestone generator outputs.",
+    "integration": "Make the first generator a regulated resource engine that grows from basic stone into modded possibility.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\16-skyblock-foundation-cobblegen-randomizer.png",
+    "matched_jar": "cobblegenrandomizer-1.20.1-1.2.jar",
+    "matched_name": "CobbleGenRandomizer"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Applied Energistics 2",
+    "description": "Digital storage, autocrafting, channels, networks, and spatially organized logistics.",
+    "integration": "Frame AE2 as externalized memory: naming, storing, retrieving, and automating what the player cannot hold in working memory.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\17-systems-automation-applied-energistics-2.png",
+    "matched_jar": "appliedenergistics2-forge-15.4.10.jar",
+    "matched_name": "Applied Energistics 2"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "AE2 Addons",
+    "description": "Addon set for AE2 cooking, Mekanism, Botania, and utility integration.",
+    "integration": "Let addons bridge special interests into one organized system without forcing the player to abandon their preferred branch.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\18-systems-automation-ae2-addons.png",
+    "matched_jar": "AE2-Things-1.2.1.jar",
+    "matched_name": "AE2 Things"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Mekanism",
+    "description": "Large tech progression with machines, gases, ore processing, and high-end production chains.",
+    "integration": "Use it as the structured systems branch: stepwise upgrades, clean processing lines, and big satisfying machines.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\19-systems-automation-mekanism.png",
+    "matched_jar": "JustEnoughMekanismMultiblocks-1.20.1-4.17.jar",
+    "matched_name": "Just Enough Mekanism Multiblocks"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Mekanism Generators",
+    "description": "Power generation for Mekanism systems.",
+    "integration": "Make power a visible regulation loop: fuel, buffer, output, and recovery.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\20-systems-automation-mekanism-generators.png",
+    "matched_jar": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+    "matched_name": "Mekanism: Generators"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Mekanism Tools",
+    "description": "Tools and armor that pair with Mekanism progression.",
+    "integration": "Reward steady tech milestones with practical gear upgrades rather than random power jumps.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\21-systems-automation-mekanism-tools.png",
+    "matched_jar": "MekanismTools-1.20.1-10.4.16.80.jar",
+    "matched_name": "Mekanism: Tools"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Mekanism Weapons",
+    "description": "Combat gear extension for Mekanism.",
+    "integration": "Use as a late challenge-prep route for players who prefer engineered safety.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\22-systems-automation-mekanism-weapons.png",
+    "matched_jar": "MekanismWeapons-1.20.1-3.0.jar",
+    "matched_name": "Mekanism: Weapons"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Thermal Series",
+    "description": "Thermal Foundation, Cultivation, Innovation, and related machinery/resources.",
+    "integration": "Use Thermal as the calm workshop branch: understandable machines, farming support, and low-drama automation.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\23-systems-automation-thermal-series.png",
+    "matched_jar": "thermal_cultivation-1.20.1-11.0.1.24.jar",
+    "matched_name": "Thermal Cultivation"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Ender IO",
+    "description": "Conduits, machines, and compact tech logistics.",
+    "integration": "Make it the tidy-base option for players who want clean routing and hidden complexity.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\24-systems-automation-ender-io.png",
+    "matched_jar": "EnderIO-1.20.1-6.2.18-beta-all.jar",
+    "matched_name": "Ender IO"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Industrial Foregoing",
+    "description": "Automation for farming, mobs, resources, and machines.",
+    "integration": "Use it to turn repetitive chores into reliable routines once the player proves the manual loop.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\25-systems-automation-industrial-foregoing.png",
+    "matched_jar": "industrial-foregoing-1.20.1-3.5.21.jar",
+    "matched_name": "Industrial Foregoing"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Powah",
+    "description": "Power generation, storage, and wireless energy progression.",
+    "integration": "Let Powah become the approachable energy ladder before extreme reactors and deep automation.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\26-systems-automation-powah.png",
+    "matched_jar": "Powah-5.0.11.jar",
+    "matched_name": "Powah"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Flux Networks",
+    "description": "Wireless energy transfer and storage.",
+    "integration": "Use it to reduce cable stress and support distant sky islands without visual clutter.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\27-systems-automation-flux-networks.png",
+    "matched_jar": "FluxNetworks-1.20.1-7.2.1.15.jar",
+    "matched_name": "Flux Networks"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "LaserIO",
+    "description": "Compact item/fluid/energy routing with laser nodes.",
+    "integration": "Present LaserIO as precise executive-function wiring: small nodes, clear filters, big relief.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\28-systems-automation-laserio.png",
+    "matched_jar": "laserio-1.6.8.jar",
+    "matched_name": "LaserIO"
+  },
+  {
+    "category": "Systems & Automation",
+    "mod": "Extreme Reactors",
+    "description": "Large multiblock reactors and turbines.",
+    "integration": "Make it a late-game commitment quest about building a stable core instead of chasing constant emergency power.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\29-systems-automation-extreme-reactors.png",
+    "matched_jar": "ExtremeReactors2-1.20.1-2.0.97.jar",
+    "matched_name": "Extreme Reactors"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Cooking for Blockheads",
+    "description": "Kitchen blocks, cooking interfaces, and food management.",
+    "integration": "Use kitchens as comfort hubs: routine meals, buffs, and a softer reason to care for the base.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\30-grounding-routine-cooking-for-blockheads.png",
+    "matched_jar": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+    "matched_name": "CookingForBlockheads"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Bonsai Trees",
+    "description": "Compact tree growing and harvesting.",
+    "integration": "Make early wood production feel dependable: one tiny tree, one repeatable promise.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\31-grounding-routine-bonsai-trees.png",
+    "matched_jar": "BonsaiTrees3-1.20.1-3.3.2.jar",
+    "matched_name": "Bonsai Trees 3"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Botany Pots",
+    "description": "Potted crop automation and compact farming.",
+    "integration": "Use pots for low-pressure routines that produce food, dye, and resources without sprawling farms.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\32-grounding-routine-botany-pots.png",
+    "matched_jar": "BotanyPots-Forge-1.20.1-13.0.43.jar",
+    "matched_name": "BotanyPots"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Botany Trees",
+    "description": "Tree support for Botany Pots.",
+    "integration": "Give players quiet, compact orchards that fit skyblock bases.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\33-grounding-routine-botany-trees.png",
+    "matched_jar": "BotanyTrees-Forge-1.20.1-9.0.20.jar",
+    "matched_name": "BotanyTrees"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Productive Bees",
+    "description": "Bee breeding and resource production.",
+    "integration": "Make bees a curiosity branch: gentle observation, patience, genetics, and resource growth.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\34-grounding-routine-productive-bees.png",
+    "matched_jar": "productivebees-1.20.1-12.6.0.jar",
+    "matched_name": "Productive Bees"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Productive Trees",
+    "description": "Tree breeding and resource trees.",
+    "integration": "Use tree breeding as a slow progress loop for players who enjoy nurturing systems.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\35-grounding-routine-productive-trees.png",
+    "matched_jar": "productivetrees-1.20.1-0.2.6.jar",
+    "matched_name": "Productive Trees"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Mystical Agriculture",
+    "description": "Resource crops and essence-based crafting.",
+    "integration": "Frame essence farming as grounding repetition: tend, harvest, upgrade, breathe.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\36-grounding-routine-mystical-agriculture.png",
+    "matched_jar": "MysticalAgriculture-1.20.1-7.0.23.jar",
+    "matched_name": "Mystical Agriculture"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Mystical Agriculture Addons",
+    "description": "Additions and customization for Mystical Agriculture.",
+    "integration": "Use addons for optional specialization after the basic farm loop feels safe.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\37-grounding-routine-mystical-agriculture-addons.png",
+    "matched_jar": "MysticalAgradditions-1.20.1-7.0.12.jar",
+    "matched_name": "Mystical Agradditions"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Ceramics",
+    "description": "Clay barrels, tanks, channels, and early utility blocks.",
+    "integration": "Use clay tech as the tactile first craft: simple materials, useful containment, visible progress.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\38-grounding-routine-ceramics.png",
+    "matched_jar": "Ceramics-1.20.1-1.8.0.jar",
+    "matched_name": "Ceramics"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Hearth & Home",
+    "description": "Cozy building, home, and decor additions.",
+    "integration": "Make homebuilding an actual progression reward, not just cosmetics after the work is done.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\39-grounding-routine-hearth-home.png",
+    "matched_jar": "hearth_and_home-forge-1.20.1-2.0.1.jar",
+    "matched_name": "Hearth & Home"
+  },
+  {
+    "category": "Grounding & Routine",
+    "mod": "Stardew Fishing",
+    "description": "Fishing mechanics inspired by cozy life-sim rhythms.",
+    "integration": "Use fishing as a regulation minigame: pause the rush, gather food, and let the base breathe.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\40-grounding-routine-stardew-fishing.png",
+    "matched_jar": "stardew_fishing-3.6-1.20.1.jar",
+    "matched_name": "Stardew Fishing"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Botania",
+    "description": "Mana-based natural magic built around flowers, automation, and elegant systems.",
+    "integration": "Use Botania as nonlinear engineering: beauty, pattern recognition, and automation through living systems.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\41-magic-intuition-botania.png",
+    "matched_jar": "aiotbotania-1.20.1-4.0.8.jar",
+    "matched_name": "AIOT Botania"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Botania Addons",
+    "description": "Additional Botania tools, machines, and cross-mod integrations.",
+    "integration": "Let addon quests become optional deep-focus routes for players who fall in love with mana logic.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\42-magic-intuition-botania-addons.png",
+    "matched_jar": "BotanicAdditions-1.20.1-20.1.3.jar",
+    "matched_name": "Botanic Additions"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Ars Nouveau",
+    "description": "Spellcrafting, magical automation, familiars, and glyph-based progression.",
+    "integration": "Use glyph discovery as language acquisition: naming needs, shaping tools, and building agency.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\43-magic-intuition-ars-nouveau.png",
+    "matched_jar": "ars_nouveau-1.20.1-4.12.7-all.jar",
+    "matched_name": "Ars Nouveau"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Blood Magic",
+    "description": "Ritual magic, sacrifice, will, and altar progression.",
+    "integration": "Handle as a consent-and-cost branch: power that asks what the player is willing to spend and why.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\44-magic-intuition-blood-magic.png",
+    "matched_jar": "bloodmagic-1.20.1-3.3.5-47.jar",
+    "matched_name": "Blood Magic"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Malum",
+    "description": "Soul magic, spirits, runework, and occult progression.",
+    "integration": "Use Malum for shadow-work quests about integrating difficult feelings instead of banishing them.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\45-magic-intuition-malum.png",
+    "matched_jar": "malum-1.20.1-1.6.7.jar",
+    "matched_name": "Malum"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Thaumon",
+    "description": "Thaumcraft-inspired magical research and discovery.",
+    "integration": "Make it the wonder/research branch: curiosity, notes, experiments, and strange new categories.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\46-magic-intuition-thaumon.png",
+    "matched_jar": "thaumon-forge-2.3.0+1.20.1.jar",
+    "matched_name": "Thaumon"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Relics",
+    "description": "Powerful discoverable artifacts and curios.",
+    "integration": "Use relics sparingly as identity objects: tools the player earns by becoming more themselves.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\47-magic-intuition-relics.png",
+    "matched_jar": "relics-1.20.1-0.8.0.13.jar",
+    "matched_name": "Relics"
+  },
+  {
+    "category": "Magic & Intuition",
+    "mod": "Apotheosis",
+    "description": "Bosses, affixes, spawners, enchantment expansion, and progression loot.",
+    "integration": "Use it to turn gear growth into readable milestones while keeping difficulty spikes quest-gated.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\48-magic-intuition-apotheosis.png",
+    "matched_jar": "Apotheosis-1.20.1-7.4.8.jar",
+    "matched_name": "Apotheosis"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Born in Chaos",
+    "description": "Hostile mobs, encounters, and danger-focused content.",
+    "integration": "Use as controlled overwhelm: opt-in combat chapters that teach preparation and exits.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\49-challenge-chaos-born-in-chaos.png",
+    "matched_jar": "born_in_chaos_[Forge]1.20.1_1.7.4.jar",
+    "matched_name": "Born in Chaos"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "L_Ender's Cataclysm",
+    "description": "Large bosses, dungeons, and high-pressure combat encounters.",
+    "integration": "Make each boss a named threshold, with preparation quests before the fight and recovery after.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\50-challenge-chaos-l-ender-s-cataclysm.png",
+    "matched_jar": "L_Enders_Cataclysm-3.26-laserfix.jar",
+    "matched_name": "cataclysm"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Infernal Mobs",
+    "description": "Randomly empowered mobs with special modifiers.",
+    "integration": "Use carefully so chaos feels like texture, not punishment; pair with better rewards and escape tools.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\51-challenge-chaos-infernal-mobs.png",
+    "matched_jar": "infernalmobs-1.20.1.11.jar",
+    "matched_name": "Infernal Mobs"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Mutant Monsters",
+    "description": "Stronger mutant versions of familiar mobs.",
+    "integration": "Use as recognizable fear made bigger: clear, dramatic, and mechanically legible.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\52-challenge-chaos-mutant-monsters.png",
+    "matched_jar": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+    "matched_name": "Mutant Monsters"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Dungeon Crawl",
+    "description": "Generated dungeons for exploration and combat.",
+    "integration": "Make dungeon entry a preparedness milestone, not an early accident.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\53-challenge-chaos-dungeon-crawl.png",
+    "matched_jar": "Dungeon Crawl-1.20.1-2.3.15.jar",
+    "matched_name": "Dungeon Crawl"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "When Dungeons Arise",
+    "description": "Large structures and adventure dungeons.",
+    "integration": "Use as major sky/land expedition targets with Waystone return routes.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\54-challenge-chaos-when-dungeons-arise.png",
+    "matched_jar": "DungeonsArise-1.20.x-2.1.58-release.jar",
+    "matched_name": "When Dungeons Arise"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Gateways to Eternity",
+    "description": "Wave-based gateway fights and mob arenas.",
+    "integration": "Use gateways as contained pressure sessions with clear starts, endings, and rewards.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\55-challenge-chaos-gateways-to-eternity.png",
+    "matched_jar": "GatewaysToEternity-1.20.1-4.2.6.jar",
+    "matched_name": "Gateways To Eternity"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Alex's Mobs",
+    "description": "Adds many animals and creatures with unique behavior and drops.",
+    "integration": "Use it to make the world feel alive, with quests that notice ecology instead of only loot.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\56-challenge-chaos-alex-s-mobs.png",
+    "matched_jar": "alexsmobs-1.22.9.jar",
+    "matched_name": "Alex's Mobs"
+  },
+  {
+    "category": "Challenge & Chaos",
+    "mod": "Creeper Overhaul",
+    "description": "Biome-themed creeper variants.",
+    "integration": "Use variants as environmental awareness lessons, with sensory-safe warning and prep quests.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\57-challenge-chaos-creeper-overhaul.png",
+    "matched_jar": "creeperoverhaul-3.0.2-forge.jar",
+    "matched_name": "Creeper Overhaul"
+  },
+  {
+    "category": "Exploration & Movement",
+    "mod": "Waystones",
+    "description": "Teleportation stones for travel networks.",
+    "integration": "Make waystones the pack's chosen-route system: name places, return safely, and reduce travel fatigue.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\58-exploration-movement-waystones.png",
+    "matched_jar": "waystones-forge-1.20.1-14.1.20.jar",
+    "matched_name": "Waystones"
+  },
+  {
+    "category": "Exploration & Movement",
+    "mod": "Twilight Forest",
+    "description": "A full adventure dimension with bosses, biomes, and progression.",
+    "integration": "Use it as a mythic chapter after the base is stable: the inner forest beyond survival.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\59-exploration-movement-twilight-forest.png",
+    "matched_jar": "tf_dnv-1.2.3.jar",
+    "matched_name": "Twilight Forest - Dungeons & Villages"
+  },
+  {
+    "category": "Exploration & Movement",
+    "mod": "Paraglider",
+    "description": "Stamina-based gliding and movement tools.",
+    "integration": "Give the void a gentler relationship: falling becomes navigation once the player earns it.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\60-exploration-movement-paraglider.png",
+    "matched_jar": "Paraglider-forge-20.1.3.jar",
+    "matched_name": "Paraglider"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "JEI",
+    "description": "Recipe and usage viewer for items, fluids, and crafting systems.",
+    "integration": "Make JEI a quest-taught research tool: search, bookmark, compare, and reduce uncertainty.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\61-quality-of-life-jei.png",
+    "matched_jar": "jei-1.20.1-forge-15.20.0.112.jar",
+    "matched_name": "Just Enough Items"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Jade",
+    "description": "In-world information overlay for blocks, entities, fluids, and machines.",
+    "integration": "Use Jade as environmental literacy: the world tells the player what they are looking at.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\62-quality-of-life-jade.png",
+    "matched_jar": "Jade-1.20.1-Forge-11.13.2.jar",
+    "matched_name": "Jade"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Mouse Tweaks",
+    "description": "Inventory drag and click improvements.",
+    "integration": "Keep repetitive inventory actions lighter so the pack's complexity costs less energy.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\63-quality-of-life-mouse-tweaks.png",
+    "matched_jar": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "matched_name": "Mouse Tweaks"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Controlling",
+    "description": "Keybind search and conflict management.",
+    "integration": "Point players here early so modded controls do not become an invisible wall.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\64-quality-of-life-controlling.png",
+    "matched_jar": "Controlling-forge-1.20.1-12.0.2.jar",
+    "matched_name": "Controlling"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Inventory HUD",
+    "description": "HUD overlays for inventory, armor, and effects.",
+    "integration": "Use as optional self-monitoring for players who like visible state and fewer surprises.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\65-quality-of-life-inventory-hud.png",
+    "matched_jar": "inventoryhud.forge.1.20.1-3.4.26.jar",
+    "matched_name": "Inventory HUD+"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Item Zoom",
+    "description": "Lets players inspect item models closely.",
+    "integration": "Support delight and recognition: inspect artifacts, plushies, tools, and strange items.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\66-quality-of-life-item-zoom.png",
+    "matched_jar": "itemzoom-1.20.1-2.9.0.jar",
+    "matched_name": "Item Zoom"
+  },
+  {
+    "category": "Quality of Life",
+    "mod": "Searchables",
+    "description": "Search support library used by UI mods.",
+    "integration": "Treat as behind-the-scenes cognitive load reduction for menus and keybinds.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\67-quality-of-life-searchables.png",
+    "matched_jar": "Searchables-forge-1.20.1-1.0.3.jar",
+    "matched_name": "Searchables"
+  },
+  {
+    "category": "Inventory & Load Management",
+    "mod": "Cloud Storage",
+    "description": "Portable/cloud-like storage with item management.",
+    "integration": "Use as a midgame relief valve when inventories start feeling impossible to hold mentally.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\68-inventory-load-management-cloud-storage.png",
+    "matched_jar": "cloudstorage-1.4.0-1.20.jar",
+    "matched_name": "Cloud Storage"
+  },
+  {
+    "category": "Inventory & Load Management",
+    "mod": "Baubley Heart Canisters",
+    "description": "Health upgrades through wearable or crafted canisters.",
+    "integration": "Make health growth a body-care arc: sturdier, safer, and earned through preparation.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\69-inventory-load-management-baubley-heart-canisters.png",
+    "matched_jar": "baubley-heart-canisters-1.20.1-1.2.0.jar",
+    "matched_name": "Baubley Heart Canisters"
+  },
+  {
+    "category": "Inventory & Load Management",
+    "mod": "Inventory Pets",
+    "description": "Collectible pets that grant utilities and playful effects.",
+    "integration": "Use as expressive helper companions that soften utility progression.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\70-inventory-load-management-inventory-pets.png",
+    "matched_jar": "inventorypets-1.20.1-2.2.8.jar",
+    "matched_name": "Inventory Pets"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Plushies",
+    "description": "Collectible plush decorations.",
+    "integration": "Use plushies as comfort rewards for emotional milestones and cozy base corners.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\71-comfort-expression-plushies.png",
+    "matched_jar": "plushies-1.4.0-forge.jar",
+    "matched_name": "Plushie Mod"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Decorative Blocks",
+    "description": "Decorative building blocks and props.",
+    "integration": "Reward base personalization as progress, not procrastination.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\72-comfort-expression-decorative-blocks.png",
+    "matched_jar": "decorative_blocks-forge-1.20.1-4.1.3.jar",
+    "matched_name": "Decorative Blocks"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Night Lights",
+    "description": "Small lighting and ambience blocks.",
+    "integration": "Use night lights as sensory-safety objects in early shelters and recovery rooms.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\73-comfort-expression-night-lights.png",
+    "matched_jar": "nightlights-1.20.1-1.1.jar",
+    "matched_name": "Night Lights"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Dimensional Paintings",
+    "description": "Paintings or portals with dimensional/visual flair.",
+    "integration": "Use as memory walls: visual anchors for places, chapters, and identity shifts.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\74-comfort-expression-dimensional-paintings.png",
+    "matched_jar": "Dimensional-Paintings-1.20.1-2.1.1.jar",
+    "matched_name": "Dimensional Paintings"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Display Case",
+    "description": "Display blocks for showcasing items.",
+    "integration": "Let players preserve milestones physically: first tool, first relic, first hard-won trophy.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\75-comfort-expression-display-case.png",
+    "matched_jar": "Display Case-forge-1.20-1.0.8.jar",
+    "matched_name": "Display Case Mod"
+  },
+  {
+    "category": "Comfort & Expression",
+    "mod": "Simple Hats",
+    "description": "Cosmetic hats and wearable expression.",
+    "integration": "Use hats as low-stakes identity play and celebration rewards.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\76-comfort-expression-simple-hats.png",
+    "matched_jar": "simplehats-forge-1.20.1-0.4.0a.jar",
+    "matched_name": "SimpleHats"
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "Embeddium",
+    "description": "Rendering performance optimization for Forge.",
+    "integration": "Keep the pack more comfortable for lower-end systems and reduce visual strain from lag.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\77-performance-optimization-embeddium.png",
+    "matched_jar": "embeddium-0.3.31+mc1.20.1.jar",
+    "matched_name": "Embeddium"
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "Oculus",
+    "description": "Shader support for Forge.",
+    "integration": "Offer optional beauty while keeping shaders out of required progression.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\78-performance-optimization-oculus.png",
+    "matched_jar": "oculus-mc1.20.1-1.8.0.jar",
+    "matched_name": "Oculus"
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "FerriteCore",
+    "description": "Memory usage optimization.",
+    "integration": "Quietly improves stability so large mod systems feel less fragile.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\79-performance-optimization-ferritecore.png",
+    "matched_jar": "ferritecore-6.0.1-forge.jar",
+    "matched_name": "Ferrite Core"
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "ModernFix",
+    "description": "Performance, loading, and memory fixes.",
+    "integration": "Use as a baseline stability layer for a large, emotionally dense pack.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\80-performance-optimization-modernfix.png",
+    "matched_jar": "modernfix-forge-5.26.2+mc1.20.1.jar",
+    "matched_name": "ModernFix"
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "Clumps",
+    "description": "Combines XP orbs to reduce lag.",
+    "integration": "Make XP collection less noisy and less performance-heavy after farms or fights.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\81-performance-optimization-clumps.png",
+    "matched_jar": "",
+    "matched_name": ""
+  },
+  {
+    "category": "Performance & Optimization",
+    "mod": "Toast Control",
+    "description": "Controls pop-up toast notifications.",
+    "integration": "Reduce sensory interruption by limiting noisy notifications during play.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\82-performance-optimization-toast-control.png",
+    "matched_jar": "ToastControl-1.20.1-8.0.3.jar",
+    "matched_name": "Toast Control"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Architectury",
+    "description": "Cross-loader API library used by many mods.",
+    "integration": "Keep documented as a required backend piece, not player-facing progression.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\83-libraries-dependencies-architectury.png",
+    "matched_jar": "architectury-9.2.14-forge.jar",
+    "matched_name": "Architectury"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Curios",
+    "description": "Accessory slot API for trinkets, relics, and wearable upgrades.",
+    "integration": "Use as the equipment backbone for identity objects and practical supports.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\84-libraries-dependencies-curios.png",
+    "matched_jar": "curios-forge-5.14.1+1.20.1.jar",
+    "matched_name": "Curios API"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "GeckoLib",
+    "description": "Animation library for entity and item animations.",
+    "integration": "Supports animated mobs, magic, and expressive mod content behind the scenes.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\85-libraries-dependencies-geckolib.png",
+    "matched_jar": "geckolib-forge-1.20.1-4.8.3.jar",
+    "matched_name": "GeckoLib 4"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Bookshelf",
+    "description": "Shared library for mod features and utilities.",
+    "integration": "Document as part of the pack's dependency base so updates stay understandable.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\86-libraries-dependencies-bookshelf.png",
+    "matched_jar": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+    "matched_name": "Bookshelf"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Placebo",
+    "description": "Library required by Apotheosis and related mods.",
+    "integration": "Keep tied to Apotheosis in maintenance notes so updates are not separated accidentally.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\87-libraries-dependencies-placebo.png",
+    "matched_jar": "Placebo-1.20.1-8.6.3.jar",
+    "matched_name": "Placebo"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Balm",
+    "description": "Shared library used by BlayTheNinth mods such as Cooking for Blockheads.",
+    "integration": "Supports comfort/routine mods quietly in the background.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\88-libraries-dependencies-balm.png",
+    "matched_jar": "balm-forge-1.20.1-7.3.38-all.jar",
+    "matched_name": "Balm"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "LibX",
+    "description": "Library for mods that need common helper systems.",
+    "integration": "Track as backend plumbing, especially around Botania-adjacent mods.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\89-libraries-dependencies-libx.png",
+    "matched_jar": "LibX-1.20.1-5.0.12.jar",
+    "matched_name": "LibX"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "ResourcefulLib",
+    "description": "Library used by several modern mods for assets and common utilities.",
+    "integration": "Keep as shared infrastructure for UI/data-heavy mods.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\90-libraries-dependencies-resourcefullib.png",
+    "matched_jar": "resourcefullib-forge-1.20.1-2.1.29.jar",
+    "matched_name": "Resourceful Lib"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Citadel",
+    "description": "Library powering Alex's Mobs and other entity-heavy mods.",
+    "integration": "Track with creature and challenge content so dependency updates stay paired.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\91-libraries-dependencies-citadel.png",
+    "matched_jar": "citadel-2.6.3-1.20.1.jar",
+    "matched_name": "Citadel"
+  },
+  {
+    "category": "Libraries & Dependencies",
+    "mod": "Patchouli",
+    "description": "In-game guidebook framework.",
+    "integration": "Use for future written lore, chapter guides, and gentle explanations outside FTB Quests.",
+    "png": "notes\\mod_thumbnail_cards\\cards\\92-libraries-dependencies-patchouli.png",
+    "matched_jar": "Patchouli-1.20.1-85-FORGE.jar",
+    "matched_name": "Patchouli"
+  }
+]
